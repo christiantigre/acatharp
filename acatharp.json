@@ -1,0 +1,4 @@
+composer create-project --prefer-dist laravel/laravel acatharp
+cd acatharp
+php artisan preset react
+npm install
