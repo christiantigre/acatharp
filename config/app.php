@@ -176,6 +176,10 @@ return [
         App\Providers\RouteServiceProvider::class,
         // Initial developent
         Collective\Html\HtmlServiceProvider::class,
+        Zizaco\Entrust\EntrustServiceProvider::class,
+        //  JWTAuth
+        //  Tymon\JWTAuth\Providers\JWTAuthServiceProvider::class,
+        Tymon\JWTAuth\Providers\LaravelServiceProvider::class,
 
     ],
 
@@ -230,6 +234,8 @@ return [
         // Initial development
         'Form' => Collective\Html\FormFacade::class,
         'HTML' => Collective\Html\HtmlFacade::class,
+        'Entrust'   => Zizaco\Entrust\EntrustFacade::class,
+        
 
     ],
 

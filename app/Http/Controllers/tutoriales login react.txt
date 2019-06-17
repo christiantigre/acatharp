@@ -1,0 +1,10 @@
+on composer "tymon/jwt-auth": "1.*" Or composer require tymon/jwt-auth:^1.0
+php artisan vendor:publish --provider="Tymon\JWTAuth\Providers\LaravelServiceProvider"
+php artisan jwt:secret
+
+
+otro tutorial github
+https://github.com/lijujohn13/react-laravel-auth/blob/master/resources/assets/js/components/login.js
+https://blog.pusher.com/laravel-jwt/
+
+https://blog.pusher.com/laravel-jwt/
